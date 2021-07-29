@@ -1,0 +1,40 @@
+.music-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+.image-item {
+  display: flex;
+  justify-content: flex-start;
+}
+.music-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+}
+
+.text-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 20px;
+}
+.music-track-text {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px;
+  color: #ffffff;
+}
+.music-artist-text {
+  color: #f1f1f1;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.music-time-text {
+  color: #f1f1f1;
+  font-family: 'Roboto';
+  font-size: 16px;
+}

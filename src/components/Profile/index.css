@@ -1,0 +1,63 @@
+.main-container {
+  display: flex;
+  width: 100vw;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #181818;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  width: 90vw;
+}
+.profile-image {
+  width: 100px;
+  width: 100px;
+  border: 3px solid #fefefe;
+  border-radius: 60px;
+  padding: 10px;
+}
+.profile-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: bold;
+}
+.followers-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.followers-text {
+  font-family: 'Roboto';
+  color: #9b9b9b;
+  font-size: 14px;
+  text-align: center;
+}
+.followers-numbers {
+  color: #1db954;
+  font-size: 14px;
+}
+.sub-section {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logout-button {
+  border: 1px solid #9b9b9b;
+  background-color: transparent;
+  padding: 10px;
+  color: #9b9b9b;
+  font-family: 'roboto';
+  font-size: 14px;
+  border-radius: 10px;
+  margin-top: 15px;
+}

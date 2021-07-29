@@ -1,0 +1,44 @@
+.my-playlist-container {
+  margin-top: 40px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.playlist-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.playlist-list-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-top: 40px;
+}
+.playlist-list-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.playlist-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 14px;
+  margin-bottom: 5px;
+}
+.playlist-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.track-total-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #e4e4e4;
+}
